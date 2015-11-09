@@ -1,6 +1,6 @@
 @font-face{
     font-family: WDB_Bangna;
-    src: url('font/WDB_Bangna.ttf');
+    src: url('font/Waffle Regular.otf');
 }
 
 html , body {
@@ -14,7 +14,7 @@ html , body {
 }
 
 body {
-    width: 100%;
+    width:auto;
     font-family: WDB_Bangna;
 }
 
@@ -48,10 +48,12 @@ body {
     clear: both;
     text-align: center;
     padding: 5%;
+    margin-top: 40px;
 
 }
 .footer button{
     font-family: WDB_Bangna;
+    font-size: 20px;
 }
 .footer2 {
     background-color: white;
@@ -66,6 +68,7 @@ body {
 .sectionLogin {
     background-color: white;
     color: black;
+    font-size: 20px;
     clear: both;
     text-align: center;
     padding: 10%;
@@ -75,16 +78,18 @@ body {
 }
 .sectionLogin button{
     font-family: WDB_Bangna;
+    font-size: 20px;
 }
 
 .sectionLogin input {
-  margin: 5%;
+  margin: 7%;
 }
 
 .sectionForm {
     width: auto;
     height: auto;
     background-color: white;
+    font-size: 20px;
     color: black;
     clear: both;
     text-align: left;
@@ -97,6 +102,7 @@ body {
     padding: 7px;
     font-weight: bold;
     margin-top: 0px;
+    
 
 }
 #boxtext{
@@ -112,6 +118,13 @@ select{
     height: auto;
     padding: 15px 25px;
     font-size: 15px;
+}
+#dropdown_register{
+    width: 50%;
+    padding: 2px 2px;
+    font-size: 12px;
+    margin-left: 100px;
+    margin-top: -26px;
 }
 #formLayout label, #formLayout input
 {
@@ -158,7 +171,7 @@ br
 }
 .subject{
     margin-top: -10px;
-    text-align: center;  
+    text-align: center; 
 }
 ul#navigation
 {
@@ -234,7 +247,7 @@ list-style-type: none;
  
 #tab-bar a {
     color: #036; 
-    font-size: 12px;
+    font-size: 15px;
     display: block; 
     font-weight: bold; 
     overflow: hidden;  
@@ -257,8 +270,8 @@ list-style-type: none;
     width: 25%;
 }
 #tab-bar-doc a{
-    color: #7AC5CD; 
-    font-size: 12px;
+    color: #036; 
+    font-size: 15px;
     display: block; 
     font-weight: bold; 
     overflow: hidden;  
@@ -268,7 +281,6 @@ list-style-type: none;
     -webkit-touch-callout:none;
     
 }
-
 footer{
     background-color:#E9EAED;
     padding:0;
@@ -298,4 +310,11 @@ footer.listPatient{
 .startform{
     height: auto;
     width: auto;
+}
+#form_register{
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 2px;
+    margin-top: 2px;
 }
